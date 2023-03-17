@@ -1,0 +1,194 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* Header Start */
+#nav{
+    margin: 0px;
+    padding: 0px;
+    height: 50px;
+}
+.header{
+    width: 100%;
+    height: auto;
+    background-color: #020720 ;
+}
+.navimg{
+    height: 50px;
+    width: 50px;
+    margin: auto;
+}
+.navtext{
+    font-size: 30px;
+    color: rgb(221, 197, 197)     ;
+    margin-right: 15px;
+    text-decoration: none;
+    font-family: inherit;
+    transition: transform 0.2s;
+    
+}
+.navtext:hover{
+    color: rgb(221, 197, 197);
+    transform: translateY(-20%);
+}
+.space{
+    height: 70px;
+}
+/* Header End */
+/* Main Start */
+main{
+    width: 100%;
+    height: auto;
+    background: radial-gradient(#04245c,#042466,#041c5c,#041c54,#041c4c,#041446,#04143c,#040c37);
+}
+.logomain{
+    margin-top: 30px;
+}
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    width: 100%;
+    height: auto;;
+}
+.cards{
+    flex-wrap: wrap;
+}
+.cards .card{
+    width: 270px;
+    height: 280px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3), -5px -5px 10px (rgba0, 0, 0, 0.3);
+    margin: 30px;
+    border: none;
+    cursor: pointer;
+    transition: all ease-out 0.5s;   
+}
+h1, h2{
+    text-align: center;
+    color: rgb(191, 194, 240);
+}
+h1{
+    font-size: 50px;
+    color: white;
+}
+#HySi, #EyM, #HySc, #Ma{
+    margin-top:70px;
+    font-size: 40px;
+}
+li{
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    margin: 11px;
+    list-style-position: inside;
+    list-style: none;
+}
+
+.card1{
+    background:linear-gradient(#020720 ,#081450 )
+}
+.card2{
+    background: linear-gradient(yellow,grey);
+}
+.card3{
+    background:linear-gradient(purple, black);
+}
+.cards:hover .card{
+    transform: scale(1);
+    opacity: 0.5;
+}
+.cards .card:hover{
+    filter: blur(0px);
+    transform: scale(1.1);
+    opacity: 1;
+}
+.content{
+    flex-direction:column;
+    padding: 10px;
+}
+.content img{
+    width: 130px;
+    height: 100px;
+    margin-top: 10px;
+}
+
+.content h1{
+    font-size: 25px;
+    padding-top: 8px;
+    color: white;
+}
+.content p{
+    text-align: center;
+    font-size: 14px;
+    padding: 10px;
+    color: white;
+}
+.content button{
+    padding: 4px 20px;
+    font-size: 17px;
+    border-radius: 50px;
+    background-color: green;
+    color: white;
+    outline: none;
+    border: none;
+    cursor: pointer;   
+}
+.content button:hover{
+    background-color: #8711c1;
+}
+.contentc{
+    flex-direction:column;
+    padding: 10px;
+}
+.contentc img{
+    width: 130px;
+    height: 130px;
+    margin-top: 10px;
+}
+.contentc h1{
+    font-size: 25px;
+    padding-top: 8px;
+    color: white;
+}
+.contentc p{
+    text-align: center;
+    font-size: 14px;
+    padding: 10px;
+    color: white;
+}
+.contentc button{
+    padding: 4px 20px;
+    font-size: 17px;
+    border-radius: 50px;
+    background-color: green;
+    color: white;
+    outline: none;
+    border: none;
+    cursor: pointer;   
+    margin-top: 40px;
+}
+.contentc button:hover{
+    background-color: #8711c1;
+}
+/* Main End*/
+/* Footer Start*/
+.footer {
+    background-color: #020720;
+    height: auto;
+    color: white;
+ }
+  
+  .redes {
+    width: 25px;
+    height: 25px;
+    background-size: cover;
+    margin: 0 5px 0 5px; }
+  
+  .Whatsapp {
+    background-image: url(../Images/Logo/Whatsapp.png); }
+  
+  .Instagram {
+    background-image: url(../Images/Logo/Instagram.png); }
